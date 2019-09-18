@@ -1,4 +1,4 @@
-package com.intelematics.beerdb.server;
+package com.intelematics.beerdb;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

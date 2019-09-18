@@ -1,4 +1,4 @@
-package com.intelematics.beerdb.server;
+package com.intelematics.beerdb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

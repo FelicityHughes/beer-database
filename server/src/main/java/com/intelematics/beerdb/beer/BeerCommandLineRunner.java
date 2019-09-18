@@ -1,4 +1,4 @@
-package com.intelematics.beerdb.server.beer;
+package com.intelematics.beerdb.beer;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

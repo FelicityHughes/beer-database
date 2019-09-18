@@ -1,4 +1,4 @@
-package com.intelematics.beerdb.server.beer;
+package com.intelematics.beerdb.beer;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
