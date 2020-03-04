@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.1.8.RELEASE'
+        springBootVersion = '2.2.5.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -17,7 +17,7 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'com.intelematics.beerdb'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = 13
 
 repositories {
     mavenCentral()
@@ -28,9 +28,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('org.springframework.boot:spring-boot-starter-data-rest')
     compile('org.springframework.boot:spring-boot-starter-web')
-    /* implementation 'javax.xml.bind:jaxb-api:2.4.0-b180830.0359'
-    implementation 'com.sun.xml.bind:jaxb-core:2.3.0.1'
-    implementation 'com.sun.xml.bind:jaxb-impl:2.4.0-b180830.0438' */
     implementation 'org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438'
     implementation('javax.activation:activation:1.1.1')
     runtime('org.springframework.boot:spring-boot-devtools')
